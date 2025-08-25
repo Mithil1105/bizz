@@ -1,0 +1,72 @@
+/* Amount Allocation filter styles */
+.filter-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background: #fff;
+    padding: 16px;
+    margin: 12px 0 16px;
+}
+
+.filter-title {
+    margin: 0 0 12px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.filter-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+}
+
+@media (min-width: 900px) {
+    .filter-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+.filter-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.filter-label {
+    font-size: 12px;
+    color: #374151;
+}
+
+.input,
+.select {
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 14px;
+    background: #fff;
+}
+
+.filter-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.btn {
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background: #1976d2;
+    color: #fff;
+    border: 1px solid #1976d2;
+}
+
+.btn-outline {
+    background: #fff;
+    color: #1976d2;
+    border: 1px solid #1976d2;
+}

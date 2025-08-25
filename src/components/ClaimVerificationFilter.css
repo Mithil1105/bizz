@@ -1,0 +1,67 @@
+/* Claim Verification filter */
+.cvf {
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    padding: 16px;
+    background: #fff;
+    margin: 12px 0 16px;
+}
+
+.cvf-title {
+    margin: 0 0 12px;
+    font-weight: 600;
+    color: #111827;
+    letter-spacing: .04em;
+    font-variant: small-caps;
+}
+
+.cvf-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: flex-end;
+}
+
+.cvf-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.cvf-label {
+    font-size: 12px;
+    color: #374151;
+}
+
+.cvf-input,
+.cvf-select {
+    height: 36px;
+    padding: 8px;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    width: 260px;
+}
+
+.cvf-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.btn {
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background: #1976d2;
+    color: #fff;
+    border: 1px solid #1976d2;
+}
+
+.btn-outline {
+    background: #fff;
+    color: #1976d2;
+    border: 1px solid #1976d2;
+}

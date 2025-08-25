@@ -1,24 +1,33 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import DashboardHome from './pages/DashboardHome';
+import EmployeesPage from './pages/EmployeePage';
+import AmountAllocationPage from './pages/AmountAllocationPage';
+import ExpenseClaimPage from './pages/ExpenseClaimPage';
+import ClaimApprovalPage from './pages/ClaimApprovalPage';
+import ClaimVerificationPage from './pages/ClaimVerificationPage';
+import EmployeeExpenseReportPage from './pages/EmployeeExpenseReportPage';
+import CompanyDashboard from './pages/CompanyDashboard';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="app-root">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<DashboardHome />} />
+          <Route path="/employees" element={<EmployeesPage />} />
+          <Route path="/amount-allocation" element={<AmountAllocationPage />} />
+          <Route path="/expense-claim" element={<ExpenseClaimPage />} />
+          <Route path="/claim-verification" element={<ClaimVerificationPage />} />
+          <Route path="/claim-approval" element={<ClaimApprovalPage />} />
+          <Route path="/employee-expense-report" element={<EmployeeExpenseReportPage />} />
+          <Route path="/company-dashboard" element={<CompanyDashboard />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

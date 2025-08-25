@@ -1,0 +1,68 @@
+/* Employee Expense Report filter */
+.er-filter {
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    padding: 16px;
+    background: #fff;
+    margin: 12px 0 16px;
+}
+
+.er-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: flex-end;
+}
+
+.er-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.er-label {
+    font-weight: 600;
+    font-size: 13px;
+    color: #111827;
+}
+
+.er-input,
+.er-select {
+    height: 36px;
+    padding: 6px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+}
+
+.er-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.er-export {
+    margin-left: auto;
+}
+
+.btn {
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background: #1976d2;
+    color: #fff;
+    border: 1px solid #1976d2;
+}
+
+.btn-outline {
+    background: #fff;
+    color: #1976d2;
+    border: 1px solid #1976d2;
+}
+
+.er-error {
+    color: #d32f2f;
+    font-size: 13px;
+}

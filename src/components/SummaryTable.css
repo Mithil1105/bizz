@@ -1,0 +1,31 @@
+/* Summary table */
+.sum-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 12px 0;
+}
+
+.sum-wrap {
+    overflow-x: auto;
+}
+
+.sum-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #e5e7eb;
+    background: #fff;
+}
+
+.sum-table thead {
+    background: #f3f4f6;
+}
+
+.sum-table th,
+.sum-table td {
+    padding: 12px 16px;
+    text-align: left;
+}
+
+.sum-table tbody tr {
+    border-top: 1px solid #e5e7eb;
+}

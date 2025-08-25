@@ -1,0 +1,29 @@
+/* Company Dashboard */
+.page {
+    padding: 20px 0;
+}
+
+.container-1400 {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+@media (min-width: 900px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.page-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 12px;
+}

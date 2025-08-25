@@ -1,0 +1,63 @@
+/* Expense Claim filter */
+.ec-filter {
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    padding: 16px;
+    background: #fff;
+    margin: 12px 0 16px;
+}
+
+.ec-title {
+    margin: 0 0 12px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.ec-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: flex-end;
+}
+
+.ec-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.ec-label {
+    font-size: 12px;
+    color: #374151;
+}
+
+.ec-input {
+    height: 36px;
+    padding: 6px 10px;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+}
+
+.ec-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.btn {
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background: #1976d2;
+    color: #fff;
+    border: 1px solid #1976d2;
+}
+
+.btn-outline {
+    background: #fff;
+    color: #1976d2;
+    border: 1px solid #1976d2;
+}

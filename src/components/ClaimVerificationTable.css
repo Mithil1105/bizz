@@ -1,0 +1,46 @@
+/* Claim Verification table */
+.cvt-header {
+    margin-bottom: 8px;
+}
+
+.cvt-title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.cvt-wrap {
+    overflow-x: auto;
+}
+
+.cvt {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #e5e7eb;
+    background: #fff;
+}
+
+.cvt thead {
+    background: #f3f4f6;
+}
+
+.cvt th,
+.cvt td {
+    padding: 12px 16px;
+    text-align: left;
+}
+
+.cvt th {
+    color: #4b5563;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: .03em;
+}
+
+.cvt tbody tr {
+    border-top: 1px solid #e5e7eb;
+}
+
+.cvt tbody tr:hover {
+    background: #fafafa;
+}

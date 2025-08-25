@@ -1,0 +1,68 @@
+/* Amount Allocation table */
+.aa-table-wrap {
+    overflow-x: auto;
+}
+
+.aa-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.aa-table thead {
+    background: #f3f4f6;
+}
+
+.aa-table th,
+.aa-table td {
+    padding: 12px 16px;
+    text-align: left;
+}
+
+.aa-table th {
+    color: #4b5563;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: .03em;
+}
+
+.aa-table tbody tr {
+    border-top: 1px solid #e5e7eb;
+}
+
+.aa-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-new {
+    padding: 6px 10px;
+    border: 1px solid #1976d2;
+    color: #1976d2;
+    background: #fff;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.btn-new:hover {
+    filter: brightness(1.05);
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.page-title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
