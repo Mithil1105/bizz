@@ -1,0 +1,19 @@
+/* Sites page */
+.page {
+    padding: 24px 0;
+}
+
+.container-1400 {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.mock {
+    margin-top: 12px;
+    padding: 12px;
+    border: 1px dashed #cbd5e1;
+    border-radius: 8px;
+    background: #f8fafc;
+}

@@ -1,0 +1,81 @@
+/* Sites table */
+.sites-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.sites-title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.btn-outline {
+    padding: 6px 10px;
+    border: 1px solid #1976d2;
+    color: #1976d2;
+    background: #fff;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.sites-wrap {
+    overflow-x: auto;
+}
+
+.sites-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #e5e7eb;
+    background: #fff;
+}
+
+.sites-table thead {
+    background: #f3f4f6;
+}
+
+.sites-table th,
+.sites-table td {
+    padding: 12px 16px;
+    text-align: left;
+}
+
+.sites-table tbody tr {
+    border-top: 1px solid #e5e7eb;
+}
+
+.sites-table tbody tr:hover {
+    background: #fafafa;
+}
+
+.badge-blue {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 8px;
+    font-size: 12px;
+    border-radius: 9999px;
+    background: #1976d2;
+    color: #fff;
+}
+
+.icon-btn {
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #1976d2;
+    background: #1976d2;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.icon-btn:hover {
+    filter: brightness(1.05);
+}

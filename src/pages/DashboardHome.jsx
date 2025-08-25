@@ -11,6 +11,10 @@ const Section = ({ title, items }) => (
                         <Link className="list-link" to="/employees">→ {it}</Link>
                     ) : it === 'Expense Type' ? (
                         <Link className="list-link" to="/natures-of-expense">→ {it}</Link>
+                    ) : it === 'Project' ? (
+                        <Link className="list-link" to="/projects">→ {it}</Link>
+                    ) : it === 'Site' ? (
+                        <Link className="list-link" to="/sites">→ {it}</Link>
                     ) : it === 'Amount Allocation' ? (
                         <Link className="list-link" to="/amount-allocation">→ {it}</Link>
                     ) : it === 'Expense Claim' ? (

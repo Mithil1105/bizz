@@ -10,6 +10,8 @@ import ClaimVerificationPage from './pages/ClaimVerificationPage';
 import EmployeeExpenseReportPage from './pages/EmployeeExpenseReportPage';
 import CompanyDashboard from './pages/CompanyDashboard';
 import NaturesOfExpensePage from './pages/NaturesOfExpensePage';
+import ProjectsPage from './pages/ProjectsPage';
+import SitesPage from './pages/SitesPage';
 import './App.css';
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
           <Route path="/" element={<DashboardHome />} />
           <Route path="/employees" element={<EmployeesPage />} />
           <Route path="/natures-of-expense" element={<NaturesOfExpensePage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/sites" element={<SitesPage />} />
           <Route path="/amount-allocation" element={<AmountAllocationPage />} />
           <Route path="/expense-claim" element={<ExpenseClaimPage />} />
           <Route path="/claim-verification" element={<ClaimVerificationPage />} />

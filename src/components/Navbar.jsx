@@ -20,8 +20,8 @@ const Navbar = () => {
                         <div className="menu">
                             <NavLink to="/employees">Employee</NavLink>
                             <NavLink to="/natures-of-expense">Expense Type</NavLink>
-                            <span>Project</span>
-                            <span>Site</span>
+                            <NavLink to="/projects">Project</NavLink>
+                            <NavLink to="/sites">Site</NavLink>
                         </div>
                     </div>
                     <div className="dd">
