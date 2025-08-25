@@ -9,6 +9,7 @@ import ClaimApprovalPage from './pages/ClaimApprovalPage';
 import ClaimVerificationPage from './pages/ClaimVerificationPage';
 import EmployeeExpenseReportPage from './pages/EmployeeExpenseReportPage';
 import CompanyDashboard from './pages/CompanyDashboard';
+import NaturesOfExpensePage from './pages/NaturesOfExpensePage';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<DashboardHome />} />
           <Route path="/employees" element={<EmployeesPage />} />
+          <Route path="/natures-of-expense" element={<NaturesOfExpensePage />} />
           <Route path="/amount-allocation" element={<AmountAllocationPage />} />
           <Route path="/expense-claim" element={<ExpenseClaimPage />} />
           <Route path="/claim-verification" element={<ClaimVerificationPage />} />

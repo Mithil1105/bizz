@@ -1,0 +1,16 @@
+export const expenses = [
+    { name: 'FUEL', status: 'Active', updatedOn: '2023-10-20T00:53:03', updatedBy: 'Admin User' },
+    { name: 'Personnel Costs', status: 'Active', updatedOn: '2025-08-23T01:30:12', updatedBy: 'Admin User' },
+    { name: 'Travel and Entertainment', status: 'Active', updatedOn: '2025-08-23T01:30:28', updatedBy: 'Admin User' },
+    { name: 'OPENING BALANCE', status: 'Only For Admin', updatedOn: '2023-11-25T03:27:18', updatedBy: 'Admin User' },
+    { name: 'REPAIR & MAINTENANCE - VEHICLES', status: 'Active', updatedOn: '2023-10-17T07:32:21', updatedBy: 'Admin User' },
+    { name: 'Marketing and Promotional Costs', status: 'Active', updatedOn: '2025-08-23T01:30:46', updatedBy: 'Admin User' },
+    { name: 'Administrative Expenses Related to Sales', status: 'Active', updatedOn: '2025-08-23T01:31:14', updatedBy: 'Admin User' },
+    { name: 'Food', status: 'Active', updatedOn: '2025-08-23T01:31:28', updatedBy: 'Admin User' },
+    { name: 'Mobile & Internet Recharges', status: 'Active', updatedOn: '2025-08-04T02:23:24', updatedBy: 'Admin User' },
+    { name: 'Professional Development i.e Books, Seminar etc', status: 'Active', updatedOn: '2024-12-01T23:30:15', updatedBy: 'Admin User' },
+    { name: 'Hotels', status: 'Active', updatedOn: '2025-08-23T01:32:21', updatedBy: 'Admin User' },
+    { name: 'Conference & trade show registration', status: 'Active', updatedOn: '2025-08-23T01:32:38', updatedBy: 'Admin User' },
+    { name: 'Small client gifts', status: 'Active', updatedOn: '2025-08-23T01:32:56', updatedBy: 'Admin User' },
+    { name: 'Parking & tolls', status: 'Active', updatedOn: '2025-08-23T01:33:21', updatedBy: 'Admin User' },
+];

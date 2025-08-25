@@ -9,6 +9,8 @@ const Section = ({ title, items }) => (
                 <li key={it}>
                     {it === 'Employee' ? (
                         <Link className="list-link" to="/employees">→ {it}</Link>
+                    ) : it === 'Expense Type' ? (
+                        <Link className="list-link" to="/natures-of-expense">→ {it}</Link>
                     ) : it === 'Amount Allocation' ? (
                         <Link className="list-link" to="/amount-allocation">→ {it}</Link>
                     ) : it === 'Expense Claim' ? (

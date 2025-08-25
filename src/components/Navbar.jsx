@@ -19,7 +19,7 @@ const Navbar = () => {
                         <button className="dd-btn">Master ▾</button>
                         <div className="menu">
                             <NavLink to="/employees">Employee</NavLink>
-                            <span>Expense Type</span>
+                            <NavLink to="/natures-of-expense">Expense Type</NavLink>
                             <span>Project</span>
                             <span>Site</span>
                         </div>
